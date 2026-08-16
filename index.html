@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Beacon Public Library — A lighthouse for readers</title>
+<meta name="description" content="Beacon Public Library — books, archives, and programs for the whole harbour community. Browse the catalogue, plan a visit, or join an event." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17 4H23L25 12H15L17 4Z" fill="#E8A33D"/>
+        <path d="M15.5 12H24.5L26.5 34H13.5L15.5 12Z" fill="#F2EDE1"/>
+        <rect x="14.7" y="17" width="10.6" height="3" fill="#1B2A4A"/>
+        <rect x="13.8" y="24" width="12.4" height="3" fill="#1B2A4A"/>
+        <rect x="10" y="34" width="20" height="2.4" fill="#7FB5A3"/>
+      </svg>
+      <span class="brand-name">Beacon Public Library<small>EST. 1962 · HARBOUR WARD</small></span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="visit.html">Visit</a></li>
+      </ul>
+      <a href="visit.html#join" class="btn btn-gold">Get a card</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="18" height="14" viewBox="0 0 18 14" fill="none"><path d="M0 1H18M0 7H18M0 13H18" stroke="currentColor" stroke-width="1.6"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="beam-sweep" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Harbour Ward's library since 1962</p>
+      <h1>A library is a lighthouse for anyone still finding their way.</h1>
+      <p class="lede">Free books, archives, and a warm room to sit in. Beacon holds 62,000 items, runs 40+ programs a year, and stays open seven days a week for the whole ward.</p>
+      <div class="hero-ctas">
+        <a href="catalogue.html" class="btn btn-gold">Browse the catalogue</a>
+        <a href="visit.html" class="btn btn-outline-light">Plan a visit</a>
+      </div>
+    </div>
+    <div class="hero-tower" aria-hidden="true">
+      <svg viewBox="0 0 220 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="110" cy="322" rx="90" ry="10" fill="#0F1B33"/>
+        <path d="M92 40H128L138 100H82L92 40Z" fill="#E8A33D"/>
+        <path d="M82 100H138L156 310H64L82 100Z" fill="#F2EDE1"/>
+        <rect x="86" y="128" width="48" height="16" fill="#1B2A4A"/>
+        <rect x="80" y="164" width="60" height="16" fill="#1B2A4A"/>
+        <rect x="74" y="200" width="72" height="16" fill="#1B2A4A"/>
+        <rect x="68" y="236" width="84" height="16" fill="#1B2A4A"/>
+        <rect x="62" y="272" width="96" height="16" fill="#1B2A4A"/>
+        <rect x="40" y="308" width="140" height="10" fill="#7FB5A3"/>
+        <circle cx="110" cy="70" r="16" fill="#FFF6DF" opacity="0.9"/>
+      </svg>
+    </div>
+
+    <dl class="stat-strip">
+      <div><dt>62,000</dt><dd>ITEMS IN COLLECTION</dd></div>
+      <div><dt>1962</dt><dd>YEAR ESTABLISHED</dd></div>
+      <div><dt>40+</dt><dd>PROGRAMS PER YEAR</dd></div>
+      <div><dt>7 DAYS</dt><dd>OPEN WEEKLY</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section section-parchment">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Find your way in</p>
+      <h2>Start here</h2>
+      <p>Everything at Beacon is organised the way a card catalogue always was — by what you're looking for, not by how we're structured internally.</p>
+    </div>
+    <div class="card-grid">
+      <a href="about.html" class="index-card" data-tab="A · ABOUT">
+        <h3>About Beacon</h3>
+        <p class="card-desc">Our history, mission, and the people who keep the lights on.</p>
+        <span class="card-go">Read more →</span>
+      </a>
+      <a href="catalogue.html" class="index-card" data-tab="C · CATALOGUE">
+        <h3>Search the catalogue</h3>
+        <p class="card-desc">Browse 62,000 books, periodicals, and local archives.</p>
+        <span class="card-go">Browse titles →</span>
+      </a>
+      <a href="events.html" class="index-card" data-tab="E · EVENTS">
+        <h3>Events &amp; programs</h3>
+        <p class="card-desc">Storytimes, workshops, author talks, and exhibitions.</p>
+        <span class="card-go">See what's on →</span>
+      </a>
+      <a href="visit.html" class="index-card" data-tab="V · VISIT">
+        <h3>Visit &amp; hours</h3>
+        <p class="card-desc">Directions, opening hours, and how to get a library card.</p>
+        <span class="card-go">Plan your visit →</span>
+      </a>
+      <a href="about.html#collections" class="index-card" data-tab="S · SPECIAL">
+        <h3>Special collections</h3>
+        <p class="card-desc">Local heritage archives, maps, and community oral histories.</p>
+        <span class="card-go">Explore archives →</span>
+      </a>
+      <a href="visit.html#join" class="index-card" data-tab="M · MEMBERSHIP">
+        <h3>Become a member</h3>
+        <p class="card-desc">Free for all Harbour Ward residents. Sign up in five minutes.</p>
+        <span class="card-go">Join today →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" style="background: var(--white);">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom: 34px;">
+      <p class="eyebrow">Just shelved</p>
+      <h2>New arrivals this month</h2>
+    </div>
+    <div class="arrivals">
+      <div class="arrival">
+        <span class="call-no">FIC / TAM 813</span>
+        <h4>The Long Monsoon</h4>
+        <span class="author">Kavitha Ilangovan</span>
+      </div>
+      <div class="arrival">
+        <span class="call-no">NF / HIST 954</span>
+        <h4>Ports of the Coromandel</h4>
+        <span class="author">R. Sundaresan</span>
+      </div>
+      <div class="arrival">
+        <span class="call-no">JUV / PIC 398</span>
+        <h4>The Fisherman's Lantern</h4>
+        <span class="author">Meera Das</span>
+      </div>
+      <div class="arrival">
+        <span class="call-no">PER / ARCH 720</span>
+        <h4>Harbour Quarterly, No. 44</h4>
+        <span class="author">Beacon Local Press</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-navy">
+  <div class="wrap">
+    <div class="cta-strip" style="background: var(--ink-navy);">
+      <div>
+        <h2>Get a library card in five minutes</h2>
+        <p>Free for every Harbour Ward resident. Bring one proof of address — that's it.</p>
+      </div>
+      <a href="visit.html#join" class="btn btn-gold">Join today</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Beacon Public Library</span>
+        <p>A free public library and community archive serving Harbour Ward since 1962.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="visit.html">Visit &amp; hours</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <ul>
+          <li>14 Harbour Light Road</li>
+          <li>Coastal Ward, 600 041</li>
+          <li><a href="tel:+914400000000">+91 44 0000 0000</a></li>
+          <li><a href="mailto:hello@beaconlibrary.org">hello@beaconlibrary.org</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-newsletter">
+        <h4>Stay in the loop</h4>
+        <p style="color: rgba(242,237,225,0.6); font-size: 0.88rem; margin-bottom: 10px;">Monthly notes on new arrivals and events.</p>
+        <form onsubmit="return false;">
+          <input type="email" placeholder="you@email.com" aria-label="Email address" required>
+          <button class="btn btn-gold" type="submit" style="padding: 11px 18px; font-size: 0.85rem;">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Beacon Public Library. All rights reserved.</span>
+      <div class="social-row" aria-label="Social media">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="X">X</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
